@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h2W-kq-vf4">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hsk-By-RDi">
+            <objects>
+                <viewController id="h2W-kq-vf4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4n-hy-rhD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWe-g2-aS3">
+                                <rect key="frame" x="16" y="79" width="361" height="360"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5B-uI-WrS">
+                                <rect key="frame" x="16" y="459" width="361" height="359"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fru-OG-wvM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="c5B-uI-WrS" firstAttribute="height" secondItem="vWe-g2-aS3" secondAttribute="height" multiplier="0.997297" id="055-hR-TFi"/>
+                            <constraint firstItem="fru-OG-wvM" firstAttribute="trailing" secondItem="vWe-g2-aS3" secondAttribute="trailing" constant="16" id="3HC-5u-1DX"/>
+                            <constraint firstItem="c5B-uI-WrS" firstAttribute="leading" secondItem="fru-OG-wvM" secondAttribute="leading" constant="16" id="FWe-71-rxj"/>
+                            <constraint firstItem="c5B-uI-WrS" firstAttribute="top" secondItem="vWe-g2-aS3" secondAttribute="bottom" constant="20" id="OjN-8E-924"/>
+                            <constraint firstItem="vWe-g2-aS3" firstAttribute="top" secondItem="fru-OG-wvM" secondAttribute="top" constant="20" id="PIx-NC-Nrd"/>
+                            <constraint firstItem="fru-OG-wvM" firstAttribute="trailing" secondItem="c5B-uI-WrS" secondAttribute="trailing" constant="16" id="Q2t-nU-SG0"/>
+                            <constraint firstItem="vWe-g2-aS3" firstAttribute="top" secondItem="fru-OG-wvM" secondAttribute="top" constant="20" id="T1X-SC-27m"/>
+                            <constraint firstItem="vWe-g2-aS3" firstAttribute="leading" secondItem="fru-OG-wvM" secondAttribute="leading" constant="16" id="lGy-xy-Xcl"/>
+                            <constraint firstItem="c5B-uI-WrS" firstAttribute="bottom" secondItem="fru-OG-wvM" secondAttribute="bottom" id="wDH-uj-q0E"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZmW-eg-cK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1091" y="13"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
